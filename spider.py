@@ -4,7 +4,7 @@ class Spider():
     '''
     解析网页，提取数据
     '''
-    def parse_data(self):
+    def get_data(self):
         downloader = Downloader()
         html = downloader.get_html("PHPSESSID=f47jj9br11fvtld6viktf6gg24")
         html = etree.HTML(html)
