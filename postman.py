@@ -5,13 +5,13 @@ class Post_man():
     def send_email(slef, content):
         mail_host = 'smtp.163.com'
         # 163用户名
-        mail_user = '13368078055@163.com'
+        mail_user = '13#55@163.com'
         # 密码(部分邮箱为授权码)
         mail_pass = 'QNONXVYOHFWIKFDS'
         # 邮件发送方邮箱地址
-        sender = '13368078055@163.com'
+        sender = '133#5@163.com'
         # 邮件接受方邮箱地址，注意需要[]包裹，这意味着你可以写多个邮件地址群发
-        receivers = ['897886836@qq.com']
+        receivers = ['89#36@qq.com']
 
         # 设置email信息
         # 邮件内容设置
